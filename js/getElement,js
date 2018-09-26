@@ -1,0 +1,9 @@
+function $getID(e){
+  return document.getElementById(e);
+}
+function $getCL(e, n){
+  return document.getElementsByClassName(e)[n];
+}
+function $getT(e, n){
+ return document.getElementsByTagName(e)[n];
+}
