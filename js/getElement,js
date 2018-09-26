@@ -1,9 +1,25 @@
+/*this function returns the element by ID*/
 function $getID(e){
   return document.getElementById(e);
 }
+/*this function returns the element by class name*/
 function $getCL(e, n){
   return document.getElementsByClassName(e)[n];
 }
+/*this function returns the element by tag name*/
 function $getT(e, n){
  return document.getElementsByTagName(e)[n];
 }
+
+/*using these function:
+ #By ID
+ var button = $getID("myButton");
+ 
+ #By Class Name
+ var button = $getCL("myButton", 0);
+ //last parameter is the element number by class
+ 
+ #By Tag Name
+ var button = $getT("myButton", 0);
+ //last parameter is the element number by tag
+*/
